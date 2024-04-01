@@ -1,0 +1,15 @@
+name: mistral_7b_onnx
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python=3.12
+- pip
+- pip:
+  - ipynb
+  - onnx
+  - onnxruntime
+  - optimum[onnxruntime]
+  - accelerate
+  - torch
+  - transformers
