@@ -11,6 +11,7 @@ optimum-cli export onnx --model mistralai/Mistral-7B-v0.1 mistral_onnx --batch_s
 To view the model architecture, check out
 https://netron.app
 
+
 Helpful Links:
 
 https://huggingface.co/docs/optimum/en/exporters/onnx/usage_guides/export_a_model
